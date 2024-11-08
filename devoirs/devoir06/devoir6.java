@@ -6,33 +6,41 @@ public class devoir6 {
     static int[] genereTableau;
 public static void main(String[] args) {
 
-    for (int index = 0; index < TAILLE_TABLEU; index++) {
-        genereTableau[] = genereTableau(int);
+    int variable1 = (int) (Math.random() * 18);
+    System.out.println("Ma valeur : " + variable1);
+
+    maMethode(variable1);
+    maMethode(6);
+
+    // for (int index = 0; index < TAILLE_TABLEU; index++) {
+    //     genereTableau[] = genereTableau(int);
         
-    }
-    }
+    // }
+
+}
     
-
-
-public static int rechercheMin (int i){
-    i = VALEUR_MAX;
-    for (int index = 0; index < TAILLE_TABLEU; index++) {
-        if (i < genereTableau[index]) {
-            i = genereTableau[index];
-            return;
-        }
-    }
-
+public static void maMethode(int chocolat){
+    System.out.println("le triple de " + chocolat + " est " + 3*chocolat);
 }
 
+// public static int rechercheMin (){
+//     i = VALEUR_MAX;
+//     for (int index = 0; index < TAILLE_TABLEU; index++) {
+//         if (i < genereTableau[index]) {
+//             i = genereTableau[index];
+//         }
+//     }
 
-public static int[]  genereTableau (int VALEUR_MIN,){
+// }
 
-for (int index = 0; index < TAILLE_TABLEU; index++) {
+
+// public static int[]  genereTableau (){
+
+// for (int index = 0; index < TAILLE_TABLEU; index++) {
     
-}
+// }
 
-}
+// }
 }
 
 

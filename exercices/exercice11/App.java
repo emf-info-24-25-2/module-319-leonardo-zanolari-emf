@@ -10,7 +10,7 @@ public class App {
         }
 
         int[] resultat=inverseLeTableau(tableau);
-        int[] resultat2=inverseLeTableau(chocolat);
+
 
         for (int i = 0; i < tableau.length; i++) {
             System.out.print(tableau[i] +" ");
@@ -18,7 +18,7 @@ public class App {
         System.out.println();
         for (int i = 0; i < resultat.length; i++) {
             System.out.print(resultat[i] +" ");
-        }
+        } 
     }
 
     public static int[] inverseLeTableau(int[] tabA){
