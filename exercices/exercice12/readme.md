@@ -1,3 +1,4 @@
+
 # Exercice 12 : Les chaînes de caractères
 
 ## Objectif
