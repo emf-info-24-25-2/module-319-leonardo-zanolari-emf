@@ -28,7 +28,7 @@ public static void maMethode(int chocolat){
 //     for (int index = 0; index < TAILLE_TABLEU; index++) {
 //         if (i < genereTableau[index]) {
 //             i = genereTableau[index];
-//         }
+//         }s
 //     }
 
 // }
