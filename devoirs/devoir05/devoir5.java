@@ -2,6 +2,7 @@ package devoirs.devoir05;
 
 import java.util.Scanner;
 
+//RIF: attention à l'indentation! mettez aussi des noms de variables explicites ou des commentaires
 public class devoir5 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner( System.in );
@@ -21,6 +22,7 @@ int nb2 = 0;
             System.err.println("trop grand");
            }else if (nb2 < nb1) {
             System.err.println("trop petit");
+               //RIF: comptez aussi le nombre de tentatives du joueur
 
 
         }
