@@ -67,6 +67,8 @@ public class devoir06 {
             System.out.println(
                     "Le nombre [" + VALEUR_RECHERCHEE + "] figure à la position [" + position + "] du tableau");
         } else {
+
+         //pas besoin de choisir une position au hasard :-) afficher -1 suffit, ou si vous préférez vous pouvez détecter le -1 et afficher "la valeur n'est pas présente"
             position = (int) (Math.random() * ((-1) - (-100) + 1)) + (-100);
             System.out.println(
                     "Le nombre [" + VALEUR_RECHERCHEE + "] figure à la position [" + position + "] du tableau");
