@@ -25,7 +25,6 @@ public class devoir9 {
                 i--;
                 continue;
             }
-            tttab++;
             System.out.println(tab[i]);
         }
     }

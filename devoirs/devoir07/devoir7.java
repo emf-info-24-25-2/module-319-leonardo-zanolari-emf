@@ -37,6 +37,7 @@ public class devoir7 {
         for (int i = 0; i < tab.length; i++) {
             tab[i] = (int) (Math.random() * (max - min + 1)) + min;
 
+        
         }
 
         return tab;
